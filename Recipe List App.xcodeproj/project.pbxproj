@@ -18,6 +18,7 @@
 		EA94DC1726DFE84F00FCE96A /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94DC1626DFE84F00FCE96A /* RecipeTabView.swift */; };
 		EA94DC4F26E140A600FCE96A /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = EA94DC4E26E140A500FCE96A /* recipes.json */; };
 		EA94DC5126E1410400FCE96A /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94DC5026E1410400FCE96A /* Ingredient.swift */; };
+		EA94DC5326E1428800FCE96A /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA94DC5226E1428800FCE96A /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		EA94DC1626DFE84F00FCE96A /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		EA94DC4E26E140A500FCE96A /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../CourseContent/Module 4/Lesson 05/recipes.json"; sourceTree = "<group>"; };
 		EA94DC5026E1410400FCE96A /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		EA94DC5226E1428800FCE96A /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +92,10 @@
 		EA04CB9626D7FF4600898CA1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EA94DC1626DFE84F00FCE96A /* RecipeTabView.swift */,
+				EA94DC5226E1428800FCE96A /* RecipeFeaturedView.swift */,
 				EA04CB8926D7FF0300898CA1 /* RecipeListView.swift */,
 				EA04CBA326D8D9D600898CA1 /* RecipeDetailView.swift */,
-				EA94DC1626DFE84F00FCE96A /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				EA04CBA026D800F400898CA1 /* RecipeModel.swift in Sources */,
 				EA04CB8A26D7FF0300898CA1 /* RecipeListView.swift in Sources */,
 				EA94DC5126E1410400FCE96A /* Ingredient.swift in Sources */,
+				EA94DC5326E1428800FCE96A /* RecipeFeaturedView.swift in Sources */,
 				EA04CB8826D7FF0300898CA1 /* Recipe_List_App.swift in Sources */,
 				EA04CBA226D8020000898CA1 /* DataService.swift in Sources */,
 				EA94DC1726DFE84F00FCE96A /* RecipeTabView.swift in Sources */,
