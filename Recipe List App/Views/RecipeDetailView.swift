@@ -20,6 +20,15 @@ struct RecipeDetailView: View {
                     .resizable()
                     .scaledToFill()
                 
+                //MARK: recipe title
+                Text(recipe.name)
+                    .bold()
+                    .padding(.leading)
+                    .padding(.top, 10)
+                    .font(.largeTitle)
+                
+                
+                //MARK: serving size picker
                 VStack (alignment: .leading) {
                     Text("Select your serving size:")
                     Picker("", selection: $selectedServingSize){
@@ -40,7 +49,7 @@ struct RecipeDetailView: View {
                         .font(.headline)
                         .padding([.bottom, .top], 5)
                     ForEach(recipe.ingredients) { item in
-                        Text("• " + RecipeModel.getPortion(ingredient: item, recipeServings: recipe.servings, targetServings: selectedServingSize) + " \(item.name)")
+                        Text("• " + RecipeModel.getPortion(ingredient: item, recipeServings: recipe.servings, targetServings: selectedServingSize) + " \(item.name.lowercased())")
                     }
                 }
                 .padding(.horizontal)
@@ -62,7 +71,6 @@ struct RecipeDetailView: View {
             }
            
         }
-        .navigationBarTitle(recipe.name)
     }
 }
 
